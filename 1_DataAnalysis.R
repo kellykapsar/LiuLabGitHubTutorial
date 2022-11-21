@@ -35,7 +35,7 @@ if (!file.exists(dirname)){
 }
 
 # Save intermediate data 
-write.csv(cys, paste0(dirname,"/carcyls.csv"))
+write.csv(cyls, paste0(dirname,"/carcyls.csv"))
 
 # Iteratively name figures within a loop using the paste0 function
 for(i in 1:length(unique(cars$cyl))){
